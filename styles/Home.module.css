@@ -1,0 +1,8 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid > * {
+  margin: 1rem;
+}

@@ -1,0 +1,23 @@
+.Badge {
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: .3rem;
+
+  &.accessibility {
+    background-color: green;
+    color: darkgreen;
+  }
+
+  &.concrete {
+    background-color: blue;
+    color: darkblue
+  }
+
+  &.electrical {
+    background-color: yellow;
+    color: yellowgreen
+  }
+
+}
